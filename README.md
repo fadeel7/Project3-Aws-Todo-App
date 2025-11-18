@@ -1,18 +1,18 @@
-# 🚀 AWS Serverless To-Do Application
+#  AWS Serverless To-Do Application
 
 A modern, full-stack to-do application built with **React frontend** and **AWS serverless backend**. Features real-time task management with complete CRUD operations in a cloud-native architecture.
 
-## ✨ Features
+##  Features
 
-- ✅ **Add, Edit, Delete Tasks** - Full CRUD functionality
-- ✅ **Mark Tasks Complete** - Toggle task completion status  
-- ✅ **Real-time Updates** - Instant UI feedback
-- ✅ **Responsive Design** - Works on all devices
-- ✅ **Serverless Backend** - No server management required
-- ✅ **Cloud Storage** - Data persistence with DynamoDB
-- ✅ **RESTful API** - Clean API architecture
+-  **Add, Edit, Delete Tasks** - Full CRUD functionality
+-  **Mark Tasks Complete** - Toggle task completion status  
+-  **Real-time Updates** - Instant UI feedback
+-  **Responsive Design** - Works on all devices
+-  **Serverless Backend** - No server management required
+-  **Cloud Storage** - Data persistence with DynamoDB
+-  **RESTful API** - Clean API architecture
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 Frontend (React) → API Gateway → Lambda Functions → DynamoDB
@@ -30,7 +30,7 @@ Frontend (React) → API Gateway → Lambda Functions → DynamoDB
 | **Database** | AWS DynamoDB | NoSQL data storage |
 | **Hosting** | AWS S3 | Static website hosting |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -112,7 +112,7 @@ Add these permissions to your Lambda execution role:
 }
 ```
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Endpoints
 
@@ -158,7 +158,7 @@ Response:
 ]
 ```
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 project3-aws-todo-app/
@@ -175,7 +175,7 @@ project3-aws-todo-app/
 └── README.md
 ```
 
-## 🚀 Deployment
+##  Deployment
 
 ### Frontend to S3
 
@@ -216,7 +216,7 @@ aws s3 sync build/ s3://your-todo-app-bucket --delete
 }
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -243,18 +243,18 @@ aws s3 sync build/ s3://your-todo-app-bucket --delete
 3. Verify **API Gateway** configuration
 4. Check **browser network tab** for failed requests
 
-## 🔒 Security
+##  Security
 
 - IAM roles with least privilege
 - API Gateway resource policies  
 - Environment variables for configuration
 - No hardcoded credentials
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create feature branch: `git checkout -b feature/amazing-feature`
@@ -266,8 +266,8 @@ This project is licensed under the MIT License.
 
 <div align="center">
 
-**Built with ❤️ using AWS Serverless Technologies**
+**Built using AWS Serverless Technologies**
 
-⭐ **Star this repo if you found it helpful!**
+ **Star this repo if you found it helpful!**
 
 </div>
